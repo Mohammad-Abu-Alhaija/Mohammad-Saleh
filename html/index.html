@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mohammad Saleh Abu Al-Haija - Full Stack Web Developer portfolio"
+    />
+    <title>Mohammad | Full Stack Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css"
+    />
+    <link rel="stylesheet" href="../CSS-Folder/master.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <nav class="nav">
+        <a href="#hero" class="nav-logo">MS</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="hero" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content animate-on-scroll">
+          <div class="profile-photo-wrap">
+            <div class="profile-photo-frame">
+              <img
+                src="../imgs/white%20and%20black.png"
+                alt="Mohammad Saleh Abu Al-Haija"
+                class="profile-photo"
+              />
+            </div>
+          </div>
+          <h1 class="hero-name">Mohammad Saleh Abu Al-Haija</h1>
+          <p class="hero-title">
+            <span class="typing-text" id="typingText"></span
+            ><span class="typing-cursor">|</span>
+          </p>
+          <p class="hero-intro">
+            I build scalable web applications with modern technologies.
+            Passionate about clean code, great UX, and continuous learning.
+          </p>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section about">
+        <div class="container">
+          <h2 class="section-title animate-on-scroll">About Me</h2>
+          <div class="about-content animate-on-scroll">
+            <p class="about-text">
+              Computer and Communications Engineering graduate from JUST
+              University. I focus on full-stack development, from responsive
+              frontends to robust backends and cloud deployment.
+            </p>
+            <div class="about-details">
+              <div class="about-card">
+                <span class="about-label">Education</span>
+                <p>CPE, Jordan University of Science and Technology</p>
+              </div>
+              <div class="about-card">
+                <span class="about-label">Focus</span>
+                <p>Full Stack Development, Web Apps, APIs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section skills">
+        <div class="container">
+          <h2 class="section-title animate-on-scroll">Technical Skills</h2>
+          <p class="section-subtitle animate-on-scroll">
+            Technologies and tools I use to build production-ready applications
+          </p>
+
+          <div class="skill-grid">
+            <div class="skill-category animate-on-scroll">
+              <h3 class="skill-category-title">
+                <i class="devicon-html5-plain colored"></i> Frontend
+              </h3>
+              <div class="skill-badges">
+                <span class="skill-badge" data-level="advanced"
+                  ><i class="devicon-html5-plain"></i> HTML5</span
+                >
+                <span class="skill-badge" data-level="advanced"
+                  ><i class="devicon-css3-plain"></i> CSS3</span
+                >
+                <span class="skill-badge" data-level="advanced"
+                  ><i class="devicon-javascript-plain"></i> JavaScript</span
+                >
+                <span class="skill-badge" data-level="advanced"
+                  ><i class="devicon-typescript-plain"></i> TypeScript</span
+                >
+                <span class="skill-badge" data-level="advanced"
+                  >Responsive Design</span
+                >
+                <span class="skill-badge" data-level="proficient"
+                  >Accessibility</span
+                >
+              </div>
+            </div>
+            <div class="skill-category animate-on-scroll">
+              <h3 class="skill-category-title">
+                <i class="devicon-dotnetcore-plain colored"></i> Backend
+              </h3>
+              <div class="skill-badges">
+                <span class="skill-badge" data-level="advanced"
+                  ><i class="devicon-dotnetcore-plain"></i> .NET</span
+                >
+                <span class="skill-badge" data-level="advanced"
+                  ><i class="devicon-csharp-plain"></i> C#</span
+                >
+                <span class="skill-badge" data-level="advanced">REST APIs</span>
+              </div>
+            </div>
+            <div class="skill-category animate-on-scroll">
+              <h3 class="skill-category-title">
+                <i class="devicon-react-original colored"></i> Frameworks
+              </h3>
+              <div class="skill-badges">
+                <span class="skill-badge" data-level="advanced"
+                  ><i class="devicon-react-original"></i> React</span
+                >
+              </div>
+            </div>
+            <div class="skill-category animate-on-scroll">
+              <h3 class="skill-category-title">
+                <i class="devicon-mysql-plain colored"></i> Databases
+              </h3>
+              <div class="skill-badges">
+                <span class="skill-badge" data-level="advanced"
+                  ><i class="devicon-mysql-plain"></i> SQL</span
+                >
+              </div>
+            </div>
+            <div class="skill-category animate-on-scroll">
+              <h3 class="skill-category-title">
+                <i class="devicon-docker-plain colored"></i> DevOps & Cloud
+              </h3>
+              <div class="skill-badges">
+                <span class="skill-badge" data-level="advanced"
+                  ><i class="devicon-docker-plain"></i> Docker</span
+                >
+                <span class="skill-badge" data-level="advanced">CI/CD</span>
+                <span class="skill-badge" data-level="proficient"
+                  ><i class="devicon-linux-plain"></i> Linux</span
+                >
+                <span class="skill-badge" data-level="proficient"
+                  >GitHub Actions</span
+                >
+              </div>
+            </div>
+            <div class="skill-category animate-on-scroll">
+              <h3 class="skill-category-title">
+                <i class="devicon-git-plain colored"></i> Tools
+              </h3>
+              <div class="skill-badges">
+                <span class="skill-badge" data-level="advanced"
+                  ><i class="devicon-git-plain"></i> Git</span
+                >
+                <span class="skill-badge" data-level="proficient">Figma</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <div class="container">
+          <h2 class="section-title animate-on-scroll">Projects</h2>
+          <p class="section-subtitle animate-on-scroll">
+            A selection of recent work
+          </p>
+          <div class="project-grid"></div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2 class="section-title animate-on-scroll">Get in Touch</h2>
+          <p class="section-subtitle animate-on-scroll">
+            Open to new opportunities and collaboration
+          </p>
+          <div class="contact-content animate-on-scroll">
+            <a href="mailto:moabualhaija004@gamil.com" class="contact-email"
+              >moabualhaija004@gamil.com</a
+            >
+            <div class="contact-links">
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+                aria-label="GitHub"
+              >
+                <i class="devicon-github-original"></i>
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+                aria-label="LinkedIn"
+              >
+                <i class="devicon-linkedin-plain"></i>
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+                aria-label="Twitter"
+              >
+                <i class="devicon-twitter-original"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        &copy; <span id="year"></span> Mohammad Saleh Abu Al-Haija. All rights
+        reserved.
+      </p>
+    </footer>
+
+    <script src="../js/scroll-progress.js"></script>
+    <script src="../js/typing-effect.js"></script>
+    <script src="../js/scroll-animations.js"></script>
+    <script src="../js/nav.js"></script>
+  </body>
+</html>
